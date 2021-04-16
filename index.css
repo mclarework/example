@@ -1,0 +1,52 @@
+body {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    margin: 0px;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+.container {
+    position: relative;
+    height: 500px;
+    width: 500px;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+.image {
+    position: absolute;
+    top: 25px;
+    left: 25px;
+    height: 450px;
+    width: 450px;
+    background-image: url("drink.jpeg");
+    background-position: center;
+    background-size: cover;
+    transition: 1s;
+}
+
+.text {
+    display: flex;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    height: 450px;
+    width: 450px;
+    background-color: white;
+    border: solid 5px black;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.container:hover .image{
+    opacity: 0.1;
+}
+
+
+
+
